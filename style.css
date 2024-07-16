@@ -1,0 +1,147 @@
+body {
+    background-color:rgb(197, 194, 194);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    width: 400px;
+    height: 530px;
+    background-color:whitesmoke;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(237, 243, 237);
+    margin-top: 200px;
+    background-color: black;
+    
+   
+    
+   
+}
+.img{
+    width: 400px;
+    height: 200px;
+    background-image: url(biryani.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+color: #070F2B;
+margin-left: 40px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-top: 20px;
+}
+hr{
+    color: grey;
+    background-color: grey;
+    width: 300px;
+    height: 0px;
+    margin-top: -7px;
+}
+.clock{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    
+}
+.clock-1{
+    margin-top: -40px;
+    margin-left: 55px ;
+    color:  #f5429e;
+}
+.clock-2{
+    margin-left: 30px;
+    margin-top: -10px;
+    color:rgb(95, 93, 93);;
+}
+.book-div{ 
+    width: 120px;
+    margin-top: 3px;
+}
+.book {
+    width: 40px;
+    height: 40px;
+    
+    margin-top: -30px;
+    margin-left: 130px;
+}
+.book-1{
+    color:  #f5429e;
+    margin-left: 185px;
+    margin-top: -40px;
+    
+
+}
+.book-2{
+    margin-left: 125px;
+    margin-top: -5px;
+    color: rgb(95, 93, 93);;
+   
+}
+.main-2{
+    width: 100%;
+    margin-top: 1px;
+    margin-left: 30px;
+}
+.clock-div{
+    float: left;
+    width: 100px;
+    margin-top: 1px;
+    
+}
+.not{
+    margin-top: -60px;
+    margin-left: 15px;
+}
+.profile-img{
+    width: 40px;
+    height: 40px ;
+}
+.profile-1{
+    color:  #f5429e;
+    margin-left: 260px;
+    margin-top: -23px;
+    
+}
+.profile-2{
+    margin-left: 245px;
+    color: rgb(95, 93, 93);;
+    margin-top: -4px;
+}
+.set{
+    margin-left: 25px;
+    margin-top: -40px;
+
+}
+.profile{
+    margin-top: -88px;
+    margin-left: 250px;
+}
+h3{
+    color: rgb(95, 93, 93);
+    margin-top: -10px;
+    margin-left: 45px;
+    margin-right: 35px;
+}
+button{
+    background-color: #f5429e;
+    width: 250px;
+    color: rgb(255, 255, 255);
+    border: #ff46a6;
+    height: 37px;
+    font-size: 20px;
+    border-radius: 6px;
+    margin-left: 75px;
+}
